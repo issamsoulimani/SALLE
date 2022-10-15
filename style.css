@@ -1,0 +1,562 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.header{
+	min-height: 100vh;
+	background-image: url("images/bgg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-blend-mode: darken;
+	opacity: 1.5;
+
+}
+.container{
+	width: 90%;
+	margin: auto;
+}
+.logo{
+	padding: 2vh 0 2vh 4vw;
+}
+.logo a{
+ 	text-transform: uppercase;
+ 	font-weight: 900;
+ 	font-size: 30px;
+ 	color: #fff;
+}
+.logo span{
+	color: orange;
+	text-align: ;
+}
+.nav{
+	display: flex;
+	padding: 0 4vw 0 0;
+	text-align: ;
+}
+.nav > * + * {
+	margin-left: 5vw;
+	text-align: ;
+}
+.nav ul{
+	padding: 4vh 0;
+	display: flex;
+	text-align: ;
+}
+
+.nav ul li{
+	margin-left: 1.3vw;
+	margin-right: 1.3vw;
+	list-style: none;
+}
+.nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase; 
+	font-size: 15px;
+	font-weight: 600;
+}
+.nav ul li a:hover{
+	color: orange;
+}
+button{
+	margin: 2vh 0;
+	padding: 2vh 1vw;
+	background-color: orange;
+	color: #fff;
+	border: 1px solid orange;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+button:hover{
+	background-color: white;
+	color:orange;
+	cursor: pointer;
+}
+.head{
+	display: flex;
+	justify-content: space-between;
+	padding: 1.5vh 0;
+	background-color: rgba(44, 62, 80, .4);
+}
+/*------- main ------------------------*/
+.main{
+	padding: 23vh 0;
+	text-align: center;
+	text-transform: uppercase;
+
+}
+.main .text-1 h3{
+	font-size: 18px;
+	font-weight: 900;
+	color: #fff;
+}
+.main .text-2{
+	padding: 2vh 0;
+	text-align: ;
+}
+.main .text-2 h1{
+	font-size: 60px;
+	font-weight: 900;
+	color: #fff;
+}
+.main .text-2 span{
+	color: orange;
+	text-align: center;
+}
+.main .text-3{
+	padding: 2vh 0;
+	text-align: ;
+}
+.main .text-3 a{
+	padding: 2vh 1.6vw;
+	background-color: orange;
+	color: #fff;
+	font-weight: 300;
+	border:1px solid orange;
+	cursor: pointer;
+	font-weight: 600;
+}
+.main .text-3 a:hover{
+	background-color: white;
+	color:orange;
+}
+/*---------------------------------------- section 1 ||||| chooose ---------------------*/
+.choose{
+	min-height: 100vh;
+} 
+.choose .title{
+	padding: 4vh 0;
+	text-align: center;
+}
+.choose .title h2{
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: 900;
+	padding: 1vh 0;
+}
+.choose .title span{
+	color: orange;
+}
+.choose .title img{
+	padding: 1vh 0;
+}
+.choose .title .para{
+	padding: 1vh 15vw;
+}
+.choose .title p{
+	color: grey;
+	line-height: 1.6;
+	font-size: 14px;
+}
+/*-----------------------------*/
+.grid-choose{
+	padding: 3vh 0;
+	display: grid;
+	grid-template-columns: repeat( auto-fill, minmax(420px, 1fr) );
+	grid-template-rows: auto auto auto;
+	grid-gap: 28px 10px;
+}
+.grid-choose .item{
+	/*background-color: pink;*/
+	display: flex;
+}
+.grid-choose .item > * + * {
+	margin-left: 18px;
+}
+.grid-choose .item .img{
+	padding-left: 1.5vw; 
+}
+
+.grid-choose .item .text h4{
+	font-size: 18px;
+}
+.grid-choose .item .text p{
+	padding: .8vh 0;
+	padding-right: 4.2vw;
+	color: grey;
+	font-size: 13px;
+	line-height: 1.6;
+}
+.grid-choose .item .text a{
+	color: #f00;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+/*---------------------------------------- section 2 ||||| chooose ---------------------*/
+.member{
+	margin: 15vh 0;
+	height: 60vh;
+	background-image: url("images/cta-bg.jpg");
+}
+.member .text{
+	text-align: center;
+	padding: 10vh 0;
+	color: #fff;
+}
+.member .text h1{
+	text-transform: uppercase;
+	font-size: 40px;
+	font-weight: 900;
+	padding: 1vh 0;
+}
+.member .text span{
+	color: orange;
+}
+.member .text p{
+	padding: 2vh 12vw 6vh;
+	font-size: 14px;
+	line-height: 1.6;
+}
+.member .text a{
+	color: #fff;
+	text-decoration: none;
+	padding: 2vh 3vw;
+	background-color: orange;
+	border: 1px solid orange;
+	font-weight: 600;
+}
+.member .text a:hover{
+	background-color: white;
+	color: orange;
+}
+
+/*--------------------------------------------------------section claasses--------------------*/
+.classes{
+	min-height: 120vh;
+}
+.classes .title{
+	padding: 4vh 0;
+	text-align: center;
+}
+.classes .title h2{
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: 900;
+	padding: 1vh 0;
+}
+.classes .title span{
+	color: orange;
+}
+.classes .title img{
+	padding: 1vh 0;
+}
+.classes .title .para{
+	padding: 1vh 15vw;
+}
+.classes .title p{
+	color: grey;
+	line-height: 1.6;
+	font-size: 14px;
+}
+.grid{
+	width: 95%;
+	margin: auto;
+	/*padding: 8vh 0;*/
+	display: grid;
+	grid-template-columns: repeat(15, 1fr);
+	grid-template-rows: 11vh 11vh 11vh 11vh 8vh;
+	grid-gap: 20px 35px;
+	grid-template-areas: 
+	"item-1 item-1 item-1 item-1 item-1 . item-6 item-6 item-6 item-6 item-6 item-6 item-6 item-6 item-6"
+	"item-2 item-2 item-2 item-2 item-2 . . . . . . . . . . "
+	"item-3 item-3 item-3 item-3 item-3 . . . . . . . . . . "
+	"item-4 item-4 item-4 item-4 item-4 . . . . . . . . . . "
+	"item-5 item-5 item-5 item-5 item-5 . . . . . . . . . . "
+	;
+
+}
+.flex{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0 0 7px 0;
+}
+.flex h3{
+	font-size: 16px;
+}
+.flex > * + * {
+	margin-left: 30px;
+}
+.item-1{
+	grid-area: item-1;
+	/*background-color: orange;*/
+}
+.item-2{
+	grid-area: item-2;
+	/*background-color: yellow;*/
+}
+.item-3{
+	grid-area: item-3;
+	/*background-color: green;*/
+}
+.item-4{
+	grid-area: item-4;
+	/*background-color: pink;*/
+}
+.item-5{
+	grid-area: item-5;
+	background-color: orange;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.item-5 p{
+	color: #fff;
+	/*background-color: green;*/
+}
+.item-6{
+	grid-area: item-6;
+	grid-row: span 4;
+}
+.item-6 img{
+	width: 99%;
+	height: 65%;
+}
+.item-6 h3{
+	padding: 2vh 0;
+	/*background-color: green;*/
+}
+.item-6 p{
+	font-size: 14px;
+	padding-bottom: 6vh;
+	padding-right: 4vw;
+	line-height: 1.6;
+}
+.item-6 a{
+	padding: 2vh 2vw;
+	background-color: orange;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+/*------------------------------------section table-----------------------------------*/
+.table{
+	background-image: url("images/schedule-bg.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 140vh;
+}
+.table .title{
+	padding: 8vh 0;
+	text-align: center;
+}
+.table .title h2{
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: 900;
+	padding: 1vh 0;
+	color: #fff;
+}
+.table .title span{
+	/*background-color: green;*/
+	color: orange;
+}
+.table .title img{
+	padding: 1vh 0;
+	/*background-color: green;*/
+}
+.table .title .para{
+	padding: 1vh 15vw;
+	/*background-color: green;*/
+}
+.table .title p{
+	color: #fff;
+	line-height: 1.6;
+	font-size: 14px;
+}
+.table .days{
+	padding: 5vh 0;
+	display: flex;
+	justify-content: center;
+	color: #fff;
+}
+.table .days span{
+	padding: 0vh .8vw;
+	/*background-color: green;*/
+}
+table{
+	color: #fff;
+	width: 75%;
+	margin: auto;
+	border-spacing: 0;
+	padding-bottom: 6vh;
+}
+table td{
+	padding: 35px;
+	border: 1px solid #fff;
+	text-align: center;
+}
+/*------------------------- section expert ----------------------*/
+.expert{
+	/*background-color: green;*/
+	min-height: 130vh;
+}
+.expert .title{
+	padding: 8vh 0;
+	text-align: center;
+}
+.expert .title h2{
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: 900;
+	padding: 1vh 0;
+	color: #111;
+}
+.expert .title span{
+	color: orange;
+	/*background-color: green;*/
+}
+.expert .title img{
+	padding: 1vh 0;
+	/*background-color: green;*/
+}
+.expert .title .para{
+	padding: 1vh 15vw;
+	/*background-color: green;*/
+}
+.expert .title p{
+	color: grey;
+	line-height: 1.6;
+	font-size: 14px;
+}
+.expert .flex-2{
+	display: flex;
+	width: 90%;
+	margin: auto;
+}
+.expert .flex-2 > * + * {
+	margin-left: 3vw;
+	/*background-color: green;*/
+}
+.expert .flex-2 .item{
+	padding: 5vh 0 5vh 2vw;
+	box-shadow: 0 0 5px 0;
+}
+.expert .flex-2 img{
+	width: 90%;
+	height: 55%;
+
+}
+.expert .flex-2 h4{
+	color: #f00;
+	font-weight: 300;
+	font-size: 13px;
+	padding: 5px 0;
+}
+.expert .flex-2 h2{
+	font-size: 16px;
+	padding: 3px 0;
+	line-height: 1.1;
+}
+.expert .flex-2 p{
+	font-size: 13px;
+	line-height: 1.6;
+	color: grey;
+	padding: 8px 27px 0 0; 
+}
+.expert .flex-2 i{
+	padding: 8px 5px;
+	color: grey;
+}
+
+/**------------------------------------- section              contact --------------*/
+.contact{
+	height: 100vh;
+	/*background-color: green;*/
+}
+.contact .title{
+	padding: 6vh 0;
+	text-align: center;
+}
+.contact .title h2{
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: 900;
+	padding: 1vh 0;
+	color: #111;
+}
+.contact .title span{
+	color: orange;
+	/*background-color: green;*/
+}
+.contact .title img{
+	padding: 1vh 0;
+	/*background-color: green;*/
+}
+.contact .title .para{
+	padding: 1vh 15vw;
+	/*background-color: green;*/
+}
+.contact .title p{
+	color: grey;
+	line-height: 1.6;
+	font-size: 14px;
+}
+
+.split-3{
+	display: flex;
+	/*background-color: green;*/
+}
+.split-3 > * + *{
+	margin-left: 20px;
+	/*background-color: green;*/
+}
+.split-3 .social-media{
+	padding-right: 40px;
+	padding-left: 20px;
+	box-shadow: 1px 0 0 0 ;
+}
+.split-3 .social-media .itam{
+	text-align: center;
+	margin-bottom: 20px;
+	padding-top: 20px;
+}
+.split-3 .social-media .itam i{
+	font-size: 30px;
+	padding-bottom: 10px;
+	color: orange;
+}
+.split-3 .social-media .itam h4{
+	padding-bottom: 5px;
+	/*background-color: green;*/
+}
+/*-------------*/
+.split-3 .send-msg{
+	padding: 2vh 8vw 2vh 4vw;
+	/*background-color: green;*/
+}
+
+.split-3 .send-msg h2{
+	color: orange;
+	line-height: 1.6;
+}
+.split-3 .send-msg p{
+	padding: 1vh 0 3vh 0;
+	line-height: 1.5;
+}
+.split-3 .send-msg .itm-1 input{
+	width: 96%;
+	padding: 2vh 0 2vh 1vw;
+	margin-bottom: 1vh;
+}
+.split-3 .send-msg .itm-2 input{
+	width: 96%;
+	padding: 2vh 0 2vh 1vw;
+	margin-bottom: 1vh;
+}
+.split-3 .send-msg .itm-3 textarea{
+	width: 96%;
+	padding: 2vh 0 5vh 1vw;
+	margin-bottom: 3vh;
+}
+.split-3 .send-msg a{
+	padding: 2vh 3vw;
+	background-color: orange;
+	color: #fff;
+	font-weight: 600;
+	cursor: pointer;
+}
